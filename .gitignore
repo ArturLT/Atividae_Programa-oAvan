@@ -1,0 +1,30 @@
+# Ignorar o ambiente virtual
+venv/
+.venv/
+
+# Ignorar arquivos temporários do sistema
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Ignorar arquivos e pastas do VS Code
+.vscode/
+.idea/
+
+# Ignorar configurações locais de ambiente
+.env
+*.env
+
+# Ignorar arquivos do banco de dados SQLite (caso esteja usando)
+*.sqlite3
+
+# Ignorar dependências do sistema de pacotes do Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar arquivos de compilação
+build/
+dist/
+*.egg-info/
